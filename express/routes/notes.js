@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Note = require('../models/Note');
+const Note = require('../../sequelize/models/Note');
 
 router.post('/', async (req, res) => {
   try {
